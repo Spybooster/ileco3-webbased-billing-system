@@ -1,0 +1,125 @@
+
+
+/*for glyphicon inside on the input*/
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 15px;
+  pointer-events: none;
+  font-size: 25px;
+  color:black;
+
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  90%;}
+.right-addon .glyphicon { right: 90%;}
+
+
+/* add padding  */
+.left-addon input  { padding-left:  20px; }
+.right-addon input { padding-right: 20px; }
+
+
+.form-top-right {
+	color: black;
+}
+/*=================================================================*/
+/*<div class="login">*/
+.login input{
+	border: none;
+	border-bottom:1px solid black;
+	background-color:white;
+	box-shadow: none;
+	border-radius:0px;
+	background-color: transparent;
+	color:black;
+	
+
+}
+
+.login input:focus{
+	box-shadow:none;
+	border: none;
+	border-bottom:4px solid black;
+	background-color: transparent;
+}
+/*</div>*/
+
+/*=================================================================*/
+/* <div class="form-top"> */
+.form-top {
+	border-radius: 1px;
+}
+
+/*<div class="form-bottom">*/
+.form-bottom{
+	border-radius: 1px;
+}
+/*=================================================================*/
+/*placeholder design*/
+.login input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+.login input::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+.login input::-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}.login input::-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+/*=================================================================*/
+/*codes for carousel image to control the height and width*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+     display: block;
+     max-width: 100%;
+     height: 500px !important;
+ }
+.collapse .navbar-collapse .navbar-right .navbar-main-collapse .t-colors{
+	background-color: red;
+}
+.glyphicon glyphicon-chevron-left{
+	height: 50px;
+}
+
+
+.custom {
+	border:none;
+	border-bottom:1px solid black;
+	background-color: transparent;
+
+}
+
+.custom:focus {
+	border:2px solid black;
+	border-bottom:3px solid black;
+	background-color: transparent;
+
+}
+
+
+.login2 input{
+	border: none;
+	border-bottom:1px solid black;
+	background-color:white;
+	box-shadow: none;
+	border-radius:0px;
+	background-color: transparent;
+	color:black;
+	
+
+}
+
+.login2 input:focus{
+	box-shadow:none;
+	border: none;
+	border-bottom:3px solid black;
+	background-color: transparent;
+}

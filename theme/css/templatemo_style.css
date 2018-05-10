@@ -1,0 +1,62 @@
+
+/* ------ Carousel ----- */
+
+#templatemo-carousel {
+    background: url('../img/dummy/123.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    height: 500px;
+}
+
+#templatemo-carousel .carousel-caption {
+    z-index: 10;
+}
+
+#templatemo-carousel .item {
+    height: 500px;
+}
+#templatemo-carousel .carousel-inner > .item > img {
+    position: absolute;
+    min-width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    #templatemo-carousel .carousel-caption p h5 {
+        margin-bottom: 102%;
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    #templatemo-carousel .carousel-caption {
+        padding-bottom: 50%;
+        right: 20%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #templatemo-carousel .carousel-caption {
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #templatemo-carousel {
+        background: url('../img/carousel3.jpg') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
+        margin-bottom:0;
+        height: 500px;
+    }
+}
+/* ------ End of Carousel ----- */
