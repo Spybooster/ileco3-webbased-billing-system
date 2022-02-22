@@ -9,9 +9,9 @@
 
 <b>Web project manager</b>
   <br>
-Quality assurance tester: Jofie Bernas (Web application programmer)<br>
-System Leader: Niel Blanca (Web page engineer)<br>
-Front-end Editor: Edu Jhun Celeste (html page coder)<br>
+QA and Head Programmer: Jofie Bernas (Web application programmer)<br>
+System Leader: Niel Blanca (Thesis Leader)<br>
+Front-end Programmer: Edu Jhun Celeste (html page coder)<br>
 <br>
 
 <b>Information architect</b>
