@@ -12,6 +12,8 @@ class View extends CI_Controller {
 
 	function index()
 	{
+		print_r($this->session->userdata('user_id'));
+		die();
 		$data = $this->db->order_by('id')->get('consumers');
 		consumer_template('view', $data);	
 	}
